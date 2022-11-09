@@ -4,3 +4,4 @@ project(CPP_prime_note)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPP_prime_note main.cpp)
+
