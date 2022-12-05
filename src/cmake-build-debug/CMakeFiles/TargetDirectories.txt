@@ -1,0 +1,3 @@
+D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir
+D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

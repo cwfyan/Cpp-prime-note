@@ -1,4 +1,7 @@
 "D:\CLION\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\C++\CPP prime note"
 -- Configuring done
--- Generating done
--- Build files have been written to: D:/C++/CPP prime note/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: CPP_prime_note
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

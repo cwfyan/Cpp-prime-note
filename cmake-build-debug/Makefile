@@ -122,32 +122,32 @@ CPP_prime_note/fast:
 	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/build
 .PHONY : CPP_prime_note/fast
 
-main.obj: main.cpp.obj
+testc.obj: testc.cpp.obj
 
-.PHONY : main.obj
+.PHONY : testc.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+testc.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/testc.cpp.obj
+.PHONY : testc.cpp.obj
 
-main.i: main.cpp.i
+testc.i: testc.cpp.i
 
-.PHONY : main.i
+.PHONY : testc.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/main.cpp.i
-.PHONY : main.cpp.i
+testc.cpp.i:
+	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/testc.cpp.i
+.PHONY : testc.cpp.i
 
-main.s: main.cpp.s
+testc.s: testc.cpp.s
 
-.PHONY : main.s
+.PHONY : testc.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/main.cpp.s
-.PHONY : main.cpp.s
+testc.cpp.s:
+	$(MAKE) -f CMakeFiles\CPP_prime_note.dir\build.make CMakeFiles/CPP_prime_note.dir/testc.cpp.s
+.PHONY : testc.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... CPP_prime_note
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... testc.obj
+	@echo ... testc.i
+	@echo ... testc.s
 .PHONY : help
 
 

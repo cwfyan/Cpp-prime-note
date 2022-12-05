@@ -1,6 +1,11 @@
-#include <iostream>
+//
+// Created by 王福源 on 2022/11/18.
+//
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+#include "iostream"
+const int x = 10;
+const int x = 7;
+int main()
+{
+    std::cout<<x<<'\n';
 }

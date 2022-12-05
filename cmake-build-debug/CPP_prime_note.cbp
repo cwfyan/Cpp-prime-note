@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/CPP prime note/main.cpp">
+		<Unit filename="D:/C++/CPP prime note/testc.cpp">
+			<Option target="CPP_prime_note"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/testc.h">
 			<Option target="CPP_prime_note"/>
 		</Unit>
 		<Unit filename="D:/C++/CPP prime note/CMakeLists.txt">

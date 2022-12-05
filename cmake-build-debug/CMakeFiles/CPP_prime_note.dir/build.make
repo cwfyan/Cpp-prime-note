@@ -56,27 +56,27 @@ include CMakeFiles/CPP_prime_note.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_prime_note.dir/flags.make
 
-CMakeFiles/CPP_prime_note.dir/main.cpp.obj: CMakeFiles/CPP_prime_note.dir/flags.make
-CMakeFiles/CPP_prime_note.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_prime_note.dir/main.cpp.obj"
-	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_prime_note.dir\main.cpp.obj -c "D:\C++\CPP prime note\main.cpp"
+CMakeFiles/CPP_prime_note.dir/testc.cpp.obj: CMakeFiles/CPP_prime_note.dir/flags.make
+CMakeFiles/CPP_prime_note.dir/testc.cpp.obj: ../testc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_prime_note.dir/testc.cpp.obj"
+	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_prime_note.dir\testc.cpp.obj -c "D:\C++\CPP prime note\testc.cpp"
 
-CMakeFiles/CPP_prime_note.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_prime_note.dir/main.cpp.i"
-	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\main.cpp" > CMakeFiles\CPP_prime_note.dir\main.cpp.i
+CMakeFiles/CPP_prime_note.dir/testc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_prime_note.dir/testc.cpp.i"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\testc.cpp" > CMakeFiles\CPP_prime_note.dir\testc.cpp.i
 
-CMakeFiles/CPP_prime_note.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_prime_note.dir/main.cpp.s"
-	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\main.cpp" -o CMakeFiles\CPP_prime_note.dir\main.cpp.s
+CMakeFiles/CPP_prime_note.dir/testc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_prime_note.dir/testc.cpp.s"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\testc.cpp" -o CMakeFiles\CPP_prime_note.dir\testc.cpp.s
 
 # Object files for target CPP_prime_note
 CPP_prime_note_OBJECTS = \
-"CMakeFiles/CPP_prime_note.dir/main.cpp.obj"
+"CMakeFiles/CPP_prime_note.dir/testc.cpp.obj"
 
 # External object files for target CPP_prime_note
 CPP_prime_note_EXTERNAL_OBJECTS =
 
-CPP_prime_note.exe: CMakeFiles/CPP_prime_note.dir/main.cpp.obj
+CPP_prime_note.exe: CMakeFiles/CPP_prime_note.dir/testc.cpp.obj
 CPP_prime_note.exe: CMakeFiles/CPP_prime_note.dir/build.make
 CPP_prime_note.exe: CMakeFiles/CPP_prime_note.dir/linklibs.rsp
 CPP_prime_note.exe: CMakeFiles/CPP_prime_note.dir/objects1.rsp
