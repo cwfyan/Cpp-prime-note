@@ -56,32 +56,62 @@ include CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/src.dir/flags.make
 
-CMakeFiles/src.dir/chapter10/33.cpp.obj: CMakeFiles/src.dir/flags.make
-CMakeFiles/src.dir/chapter10/33.cpp.obj: ../chapter10/33.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/chapter10/33.cpp.obj"
-	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\chapter10\33.cpp.obj -c "D:\C++\CPP prime note\src\chapter10\33.cpp"
+CMakeFiles/src.dir/main.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/src.dir/main.cpp.obj"
+	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\main.cpp.obj -c "D:\C++\CPP prime note\src\main.cpp"
 
-CMakeFiles/src.dir/chapter10/33.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/chapter10/33.cpp.i"
-	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\src\chapter10\33.cpp" > CMakeFiles\src.dir\chapter10\33.cpp.i
+CMakeFiles/src.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/main.cpp.i"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\src\main.cpp" > CMakeFiles\src.dir\main.cpp.i
 
-CMakeFiles/src.dir/chapter10/33.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/chapter10/33.cpp.s"
-	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\src\chapter10\33.cpp" -o CMakeFiles\src.dir\chapter10\33.cpp.s
+CMakeFiles/src.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/main.cpp.s"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\src\main.cpp" -o CMakeFiles\src.dir\main.cpp.s
+
+CMakeFiles/src.dir/Sales_data.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Sales_data.cpp.obj: ../Sales_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/src.dir/Sales_data.cpp.obj"
+	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Sales_data.cpp.obj -c "D:\C++\CPP prime note\src\Sales_data.cpp"
+
+CMakeFiles/src.dir/Sales_data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Sales_data.cpp.i"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\src\Sales_data.cpp" > CMakeFiles\src.dir\Sales_data.cpp.i
+
+CMakeFiles/src.dir/Sales_data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Sales_data.cpp.s"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\src\Sales_data.cpp" -o CMakeFiles\src.dir\Sales_data.cpp.s
+
+CMakeFiles/src.dir/Screen.cpp.obj: CMakeFiles/src.dir/flags.make
+CMakeFiles/src.dir/Screen.cpp.obj: ../Screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/src.dir/Screen.cpp.obj"
+	D:\learning\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\src.dir\Screen.cpp.obj -c "D:\C++\CPP prime note\src\Screen.cpp"
+
+CMakeFiles/src.dir/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/Screen.cpp.i"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\C++\CPP prime note\src\Screen.cpp" > CMakeFiles\src.dir\Screen.cpp.i
+
+CMakeFiles/src.dir/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/Screen.cpp.s"
+	D:\learning\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\C++\CPP prime note\src\Screen.cpp" -o CMakeFiles\src.dir\Screen.cpp.s
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/chapter10/33.cpp.obj"
+"CMakeFiles/src.dir/main.cpp.obj" \
+"CMakeFiles/src.dir/Sales_data.cpp.obj" \
+"CMakeFiles/src.dir/Screen.cpp.obj"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-src.exe: CMakeFiles/src.dir/chapter10/33.cpp.obj
+src.exe: CMakeFiles/src.dir/main.cpp.obj
+src.exe: CMakeFiles/src.dir/Sales_data.cpp.obj
+src.exe: CMakeFiles/src.dir/Screen.cpp.obj
 src.exe: CMakeFiles/src.dir/build.make
 src.exe: CMakeFiles/src.dir/linklibs.rsp
 src.exe: CMakeFiles/src.dir/objects1.rsp
 src.exe: CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable src.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\C++\CPP prime note\src\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable src.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\src.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

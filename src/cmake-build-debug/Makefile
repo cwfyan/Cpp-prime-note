@@ -122,32 +122,86 @@ src/fast:
 	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-chapter10/33.obj: chapter10/33.cpp.obj
+Sales_data.obj: Sales_data.cpp.obj
 
-.PHONY : chapter10/33.obj
+.PHONY : Sales_data.obj
 
 # target to build an object file
-chapter10/33.cpp.obj:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/chapter10/33.cpp.obj
-.PHONY : chapter10/33.cpp.obj
+Sales_data.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Sales_data.cpp.obj
+.PHONY : Sales_data.cpp.obj
 
-chapter10/33.i: chapter10/33.cpp.i
+Sales_data.i: Sales_data.cpp.i
 
-.PHONY : chapter10/33.i
+.PHONY : Sales_data.i
 
 # target to preprocess a source file
-chapter10/33.cpp.i:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/chapter10/33.cpp.i
-.PHONY : chapter10/33.cpp.i
+Sales_data.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Sales_data.cpp.i
+.PHONY : Sales_data.cpp.i
 
-chapter10/33.s: chapter10/33.cpp.s
+Sales_data.s: Sales_data.cpp.s
 
-.PHONY : chapter10/33.s
+.PHONY : Sales_data.s
 
 # target to generate assembly for a file
-chapter10/33.cpp.s:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/chapter10/33.cpp.s
-.PHONY : chapter10/33.cpp.s
+Sales_data.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Sales_data.cpp.s
+.PHONY : Sales_data.cpp.s
+
+Screen.obj: Screen.cpp.obj
+
+.PHONY : Screen.obj
+
+# target to build an object file
+Screen.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Screen.cpp.obj
+.PHONY : Screen.cpp.obj
+
+Screen.i: Screen.cpp.i
+
+.PHONY : Screen.i
+
+# target to preprocess a source file
+Screen.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Screen.cpp.i
+.PHONY : Screen.cpp.i
+
+Screen.s: Screen.cpp.s
+
+.PHONY : Screen.s
+
+# target to generate assembly for a file
+Screen.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Screen.cpp.s
+.PHONY : Screen.cpp.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... src
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... chapter10/33.obj
-	@echo ... chapter10/33.i
-	@echo ... chapter10/33.s
+	@echo ... Sales_data.obj
+	@echo ... Sales_data.i
+	@echo ... Sales_data.s
+	@echo ... Screen.obj
+	@echo ... Screen.i
+	@echo ... Screen.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

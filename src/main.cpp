@@ -1,3 +1,4 @@
+#include <map>
 #include "Sales_data.h"
 #include "fstream"
 #include "sstream"
@@ -8,9 +9,20 @@
 #include "functional"
 #include "iostream"
 #include "iterator"
+#include "set"
+#include "memory"
+#include "Screen.h"
+
+
+
+std::shared_ptr<int> f(int x){
+    std::shared_ptr<int> ptr (new int (x));
+    std::cout << ptr << std::endl;
+    return ptr ;
+}
+
+extern  int x ;
 int main(int argc, char *argv[])
 {
-    std::ifstream in("D:\\C++\\CPP prime note\\src\\number.txt");
-    std::istream_iterator<std::string> istreamIterator(in);
-    std::istream_iterator<std::string> eof;
+    int x = 0x123f;
 }

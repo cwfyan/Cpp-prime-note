@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/CPP prime note/src/chapter10/33.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/Sales_data.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/Sales_data.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/Screen.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/Screen.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/main.cpp">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="D:/C++/CPP prime note/src/CMakeLists.txt">

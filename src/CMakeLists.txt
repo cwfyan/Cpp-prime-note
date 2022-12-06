@@ -3,4 +3,4 @@ project(src)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(src chapter10/33.cpp)
+add_executable(src  main.cpp Sales_data.cpp Sales_data.h Screen.cpp  Screen.h)

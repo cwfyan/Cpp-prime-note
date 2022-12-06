@@ -6,11 +6,47 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/CPP prime note/src/chapter10/33.cpp
+D:/C++/CPP prime note/src/Sales_data.h
+string
+D:/C++/CPP prime note/src/string
 iostream
+D:/C++/CPP prime note/src/iostream
+
+D:/C++/CPP prime note/src/Screen.cpp
+Screen.h
+D:/C++/CPP prime note/src/Screen.h
+
+D:/C++/CPP prime note/src/Screen.h
+iostream
+D:/C++/CPP prime note/src/iostream
+
+D:/C++/CPP prime note/src/main.cpp
+map
 -
-iterator
--
+Sales_data.h
+D:/C++/CPP prime note/src/Sales_data.h
 fstream
--
+D:/C++/CPP prime note/src/fstream
+sstream
+D:/C++/CPP prime note/src/sstream
+list
+D:/C++/CPP prime note/src/list
+vector
+D:/C++/CPP prime note/src/vector
+queue
+D:/C++/CPP prime note/src/queue
+algorithm
+D:/C++/CPP prime note/src/algorithm
+functional
+D:/C++/CPP prime note/src/functional
+iostream
+D:/C++/CPP prime note/src/iostream
+iterator
+D:/C++/CPP prime note/src/iterator
+set
+D:/C++/CPP prime note/src/set
+memory
+D:/C++/CPP prime note/src/memory
+Screen.h
+D:/C++/CPP prime note/src/Screen.h
 

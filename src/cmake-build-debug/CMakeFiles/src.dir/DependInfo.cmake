@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++/CPP prime note/src/chapter10/33.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/chapter10/33.cpp.obj"
+  "D:/C++/CPP prime note/src/Sales_data.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/Sales_data.cpp.obj"
+  "D:/C++/CPP prime note/src/Screen.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/Screen.cpp.obj"
+  "D:/C++/CPP prime note/src/main.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

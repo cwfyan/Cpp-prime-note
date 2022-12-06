@@ -6,7 +6,6 @@
 #define SRC_SCREEN_H
 
 #include "iostream"
-#include "Sales_data.h"
 
 
 class Screen {
@@ -35,15 +34,11 @@ private:
 
     pos height = 1,width = 1;
     std::string contents;
-    Sales_data salesData;
 
     void do_disPlay(std::ostream &os)const { os << contents <<std::endl;  }
 
 
 };
-
-std::string f() ;
-
 
 
 inline
@@ -87,10 +82,7 @@ Screen &Screen::set(char c)
     return *this;
 }
 
-inline
-Screen &Screen::set(pos row,  pos col, char c)
-{
-    contents[row*width + col] = c;
-    return *this;
-}
+
+
+
 #endif //SRC_SCREEN_H
