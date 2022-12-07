@@ -12,17 +12,16 @@
 #include "set"
 #include "memory"
 #include "Screen.h"
+#include "StrBlob.h"
+
+int x = 10;
 
 
-
-std::shared_ptr<int> f(int x){
-    std::shared_ptr<int> ptr (new int (x));
-    std::cout << ptr << std::endl;
-    return ptr ;
-}
-
-extern  int x ;
 int main(int argc, char *argv[])
 {
-    int x = 0x123f;
+    auto p = new int(10) ;
+
+    std::cout << *p << std::endl;
+    delete p;
+    std::cout << *p << std::endl;
 }

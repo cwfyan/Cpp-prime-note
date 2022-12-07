@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/src.dir/Sales_data.cpp.obj"
   "CMakeFiles/src.dir/Screen.cpp.obj"
+  "CMakeFiles/src.dir/StrBlob.cpp.obj"
   "CMakeFiles/src.dir/main.cpp.obj"
   "libsrc.dll.a"
   "src.exe"

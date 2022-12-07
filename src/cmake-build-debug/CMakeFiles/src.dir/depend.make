@@ -7,7 +7,11 @@ CMakeFiles/src.dir/Sales_data.cpp.obj: ../Sales_data.h
 CMakeFiles/src.dir/Screen.cpp.obj: ../Screen.cpp
 CMakeFiles/src.dir/Screen.cpp.obj: ../Screen.h
 
+CMakeFiles/src.dir/StrBlob.cpp.obj: ../StrBlob.cpp
+CMakeFiles/src.dir/StrBlob.cpp.obj: ../StrBlob.h
+
 CMakeFiles/src.dir/main.cpp.obj: ../Sales_data.h
 CMakeFiles/src.dir/main.cpp.obj: ../Screen.h
+CMakeFiles/src.dir/main.cpp.obj: ../StrBlob.h
 CMakeFiles/src.dir/main.cpp.obj: ../main.cpp
 

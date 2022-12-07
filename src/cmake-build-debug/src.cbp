@@ -94,6 +94,12 @@
 		<Unit filename="D:/C++/CPP prime note/src/Screen.h">
 			<Option target="src"/>
 		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/StrBlob.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/StrBlob.h">
+			<Option target="src"/>
+		</Unit>
 		<Unit filename="D:/C++/CPP prime note/src/main.cpp">
 			<Option target="src"/>
 		</Unit>

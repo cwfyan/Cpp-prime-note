@@ -12,13 +12,17 @@ D:/C++/CPP prime note/src/string
 iostream
 D:/C++/CPP prime note/src/iostream
 
-D:/C++/CPP prime note/src/Screen.cpp
-Screen.h
-D:/C++/CPP prime note/src/Screen.h
-
 D:/C++/CPP prime note/src/Screen.h
 iostream
 D:/C++/CPP prime note/src/iostream
+
+D:/C++/CPP prime note/src/StrBlob.h
+memory
+D:/C++/CPP prime note/src/memory
+vector
+D:/C++/CPP prime note/src/vector
+string
+D:/C++/CPP prime note/src/string
 
 D:/C++/CPP prime note/src/main.cpp
 map
@@ -49,4 +53,6 @@ memory
 D:/C++/CPP prime note/src/memory
 Screen.h
 D:/C++/CPP prime note/src/Screen.h
+StrBlob.h
+D:/C++/CPP prime note/src/StrBlob.h
 

@@ -176,6 +176,33 @@ Screen.cpp.s:
 	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/Screen.cpp.s
 .PHONY : Screen.cpp.s
 
+StrBlob.obj: StrBlob.cpp.obj
+
+.PHONY : StrBlob.obj
+
+# target to build an object file
+StrBlob.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/StrBlob.cpp.obj
+.PHONY : StrBlob.cpp.obj
+
+StrBlob.i: StrBlob.cpp.i
+
+.PHONY : StrBlob.i
+
+# target to preprocess a source file
+StrBlob.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/StrBlob.cpp.i
+.PHONY : StrBlob.cpp.i
+
+StrBlob.s: StrBlob.cpp.s
+
+.PHONY : StrBlob.s
+
+# target to generate assembly for a file
+StrBlob.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/StrBlob.cpp.s
+.PHONY : StrBlob.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... Screen.obj
 	@echo ... Screen.i
 	@echo ... Screen.s
+	@echo ... StrBlob.obj
+	@echo ... StrBlob.i
+	@echo ... StrBlob.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
