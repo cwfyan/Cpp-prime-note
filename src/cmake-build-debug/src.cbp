@@ -82,25 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/CPP prime note/src/Sales_data.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/12/QueryResult.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/Sales_data.h">
+		<Unit filename="D:/C++/CPP prime note/src/12/QueryResult.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/Screen.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/12/TextQuery.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/Screen.h">
+		<Unit filename="D:/C++/CPP prime note/src/12/TextQuery.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/StrBlob.cpp">
-			<Option target="src"/>
-		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/StrBlob.h">
-			<Option target="src"/>
-		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/main.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/12/runQueries.cpp">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="D:/C++/CPP prime note/src/CMakeLists.txt">

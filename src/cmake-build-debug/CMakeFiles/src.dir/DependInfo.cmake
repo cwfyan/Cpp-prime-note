@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++/CPP prime note/src/Sales_data.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/Sales_data.cpp.obj"
-  "D:/C++/CPP prime note/src/Screen.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/Screen.cpp.obj"
-  "D:/C++/CPP prime note/src/StrBlob.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/StrBlob.cpp.obj"
-  "D:/C++/CPP prime note/src/main.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
+  "D:/C++/CPP prime note/src/12/QueryResult.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/12/QueryResult.cpp.obj"
+  "D:/C++/CPP prime note/src/12/TextQuery.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/12/TextQuery.cpp.obj"
+  "D:/C++/CPP prime note/src/12/runQueries.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/12/runQueries.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

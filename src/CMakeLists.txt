@@ -3,4 +3,4 @@ project(src)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(src  main.cpp Sales_data.cpp Sales_data.h Screen.cpp  Screen.h StrBlob.cpp StrBlob.h)
+add_executable(src 12/QueryResult.cpp 12/TextQuery.cpp 12/runQueries.cpp)

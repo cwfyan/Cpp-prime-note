@@ -6,53 +6,35 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/CPP prime note/src/Sales_data.h
-string
-D:/C++/CPP prime note/src/string
+D:/C++/CPP prime note/src/12/QueryResult.h
 iostream
-D:/C++/CPP prime note/src/iostream
-
-D:/C++/CPP prime note/src/Screen.h
-iostream
-D:/C++/CPP prime note/src/iostream
-
-D:/C++/CPP prime note/src/StrBlob.h
-memory
-D:/C++/CPP prime note/src/memory
-vector
-D:/C++/CPP prime note/src/vector
-string
-D:/C++/CPP prime note/src/string
-
-D:/C++/CPP prime note/src/main.cpp
-map
--
-Sales_data.h
-D:/C++/CPP prime note/src/Sales_data.h
-fstream
-D:/C++/CPP prime note/src/fstream
-sstream
-D:/C++/CPP prime note/src/sstream
-list
-D:/C++/CPP prime note/src/list
-vector
-D:/C++/CPP prime note/src/vector
-queue
-D:/C++/CPP prime note/src/queue
-algorithm
-D:/C++/CPP prime note/src/algorithm
-functional
-D:/C++/CPP prime note/src/functional
-iostream
-D:/C++/CPP prime note/src/iostream
-iterator
-D:/C++/CPP prime note/src/iterator
+D:/C++/CPP prime note/src/12/iostream
 set
-D:/C++/CPP prime note/src/set
+D:/C++/CPP prime note/src/12/set
 memory
-D:/C++/CPP prime note/src/memory
-Screen.h
-D:/C++/CPP prime note/src/Screen.h
-StrBlob.h
-D:/C++/CPP prime note/src/StrBlob.h
+D:/C++/CPP prime note/src/12/memory
+vector
+D:/C++/CPP prime note/src/12/vector
+
+D:/C++/CPP prime note/src/12/TextQuery.h
+vector
+D:/C++/CPP prime note/src/12/vector
+memory
+D:/C++/CPP prime note/src/12/memory
+map
+D:/C++/CPP prime note/src/12/map
+set
+D:/C++/CPP prime note/src/12/set
+iostream
+D:/C++/CPP prime note/src/12/iostream
+fstream
+D:/C++/CPP prime note/src/12/fstream
+
+D:/C++/CPP prime note/src/12/runQueries.cpp
+iostream
+D:/C++/CPP prime note/src/12/iostream
+TextQuery.h
+D:/C++/CPP prime note/src/12/TextQuery.h
+QueryResult.h
+D:/C++/CPP prime note/src/12/QueryResult.h
 
