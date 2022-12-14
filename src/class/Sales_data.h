@@ -9,11 +9,11 @@
 #include "string"
 #include "iostream"
 class Sales_data {
-
     friend Sales_data add(const Sales_data &, const Sales_data &);
     friend std::istream & read(std::istream &, Sales_data &);
     friend std::ostream & print(std::ostream &, const Sales_data &);
-
+    friend std::ostream &operator<<(std::ostream &, const Sales_data &);
+    friend std::istream &operator>>(std::istream &, Sales_data &);
 public:
 
     Sales_data() = default ;
@@ -35,11 +35,5 @@ private:
     static int ACCOUNT;
 };
 
-
-Sales_data add(const Sales_data &, const Sales_data &);
-
-std::istream & read(std::istream &, Sales_data &);
-
-std::ostream & print(std::ostream &, const Sales_data &);
 
 #endif //SRC_SALES_DATA_H

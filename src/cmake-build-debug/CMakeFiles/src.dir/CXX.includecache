@@ -6,35 +6,47 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/CPP prime note/src/12/QueryResult.h
+D:/C++/CPP prime note/src/13/HasPtr.h
 iostream
-D:/C++/CPP prime note/src/12/iostream
-set
-D:/C++/CPP prime note/src/12/set
-memory
-D:/C++/CPP prime note/src/12/memory
-vector
-D:/C++/CPP prime note/src/12/vector
+D:/C++/CPP prime note/src/13/iostream
 
-D:/C++/CPP prime note/src/12/TextQuery.h
-vector
-D:/C++/CPP prime note/src/12/vector
+D:/C++/CPP prime note/src/13/HasPtrPv.h
+iostream
+D:/C++/CPP prime note/src/13/iostream
+string
+D:/C++/CPP prime note/src/13/string
+
+D:/C++/CPP prime note/src/13/StrVec.h
 memory
-D:/C++/CPP prime note/src/12/memory
+-
+iostream
+-
+
+D:/C++/CPP prime note/src/13/String.h
+iostream
+-
+memory
+-
+
+D:/C++/CPP prime note/src/main.cpp
+iostream
+D:/C++/CPP prime note/src/iostream
+memory
+D:/C++/CPP prime note/src/memory
 map
-D:/C++/CPP prime note/src/12/map
-set
-D:/C++/CPP prime note/src/12/set
-iostream
-D:/C++/CPP prime note/src/12/iostream
-fstream
-D:/C++/CPP prime note/src/12/fstream
-
-D:/C++/CPP prime note/src/12/runQueries.cpp
-iostream
-D:/C++/CPP prime note/src/12/iostream
-TextQuery.h
-D:/C++/CPP prime note/src/12/TextQuery.h
-QueryResult.h
-D:/C++/CPP prime note/src/12/QueryResult.h
+D:/C++/CPP prime note/src/map
+13/HasPtrPv.h
+D:/C++/CPP prime note/src/13/HasPtrPv.h
+13/HasPtr.h
+D:/C++/CPP prime note/src/13/HasPtr.h
+13/StrVec.h
+D:/C++/CPP prime note/src/13/StrVec.h
+utility
+D:/C++/CPP prime note/src/utility
+utility
+D:/C++/CPP prime note/src/utility
+13/String.h
+D:/C++/CPP prime note/src/13/String.h
+cstring
+D:/C++/CPP prime note/src/cstring
 

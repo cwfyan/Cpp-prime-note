@@ -13,6 +13,13 @@ StrBlob::StrBlob() :data(std::make_shared<std::vector<std::string>>() ) {}
 StrBlob::StrBlob(std::initializer_list<std::string> il) :
 data(std::make_shared<std::vector<std::string>>(il)) {}
 
+StrBlob::StrBlob(const StrBlob &s):data(std::make_shared<std::vector<std::string>>(*s.data)) {}
+
+StrBlob & StrBlob::operator=(const StrBlob &rhs) {
+    data = std::make_shared<std::vector<std::string> >(*rhs.data);
+    return *this;
+}
+
 void StrBlob::check(size_type i, const std::string &msg) const {
     if (i >= size() ) {
         throw std::out_of_range(msg);
@@ -46,3 +53,11 @@ std::string & StrBlob::back() const {
 
 StrBlobPtr StrBlob::begin()  { return StrBlobPtr(*this);};
 StrBlobPtr StrBlob::end() { return StrBlobPtr(*this, data->size()); };
+
+bool operator==(const StrBlob &lhs, const StrBlob &rhs) {
+    return lhs.data == rhs.data;
+}
+
+bool operator!=(const StrBlob &lhs, const StrBlob &rhs) {
+    return !(lhs == rhs);
+}

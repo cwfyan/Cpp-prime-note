@@ -122,86 +122,248 @@ src/fast:
 	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-12/QueryResult.obj: 12/QueryResult.cpp.obj
+13/Folder.obj: 13/Folder.cpp.obj
 
-.PHONY : 12/QueryResult.obj
-
-# target to build an object file
-12/QueryResult.cpp.obj:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/QueryResult.cpp.obj
-.PHONY : 12/QueryResult.cpp.obj
-
-12/QueryResult.i: 12/QueryResult.cpp.i
-
-.PHONY : 12/QueryResult.i
-
-# target to preprocess a source file
-12/QueryResult.cpp.i:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/QueryResult.cpp.i
-.PHONY : 12/QueryResult.cpp.i
-
-12/QueryResult.s: 12/QueryResult.cpp.s
-
-.PHONY : 12/QueryResult.s
-
-# target to generate assembly for a file
-12/QueryResult.cpp.s:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/QueryResult.cpp.s
-.PHONY : 12/QueryResult.cpp.s
-
-12/TextQuery.obj: 12/TextQuery.cpp.obj
-
-.PHONY : 12/TextQuery.obj
+.PHONY : 13/Folder.obj
 
 # target to build an object file
-12/TextQuery.cpp.obj:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/TextQuery.cpp.obj
-.PHONY : 12/TextQuery.cpp.obj
+13/Folder.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Folder.cpp.obj
+.PHONY : 13/Folder.cpp.obj
 
-12/TextQuery.i: 12/TextQuery.cpp.i
+13/Folder.i: 13/Folder.cpp.i
 
-.PHONY : 12/TextQuery.i
+.PHONY : 13/Folder.i
 
 # target to preprocess a source file
-12/TextQuery.cpp.i:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/TextQuery.cpp.i
-.PHONY : 12/TextQuery.cpp.i
+13/Folder.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Folder.cpp.i
+.PHONY : 13/Folder.cpp.i
 
-12/TextQuery.s: 12/TextQuery.cpp.s
+13/Folder.s: 13/Folder.cpp.s
 
-.PHONY : 12/TextQuery.s
+.PHONY : 13/Folder.s
 
 # target to generate assembly for a file
-12/TextQuery.cpp.s:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/TextQuery.cpp.s
-.PHONY : 12/TextQuery.cpp.s
+13/Folder.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Folder.cpp.s
+.PHONY : 13/Folder.cpp.s
 
-12/runQueries.obj: 12/runQueries.cpp.obj
+13/HasPtr.obj: 13/HasPtr.cpp.obj
 
-.PHONY : 12/runQueries.obj
+.PHONY : 13/HasPtr.obj
 
 # target to build an object file
-12/runQueries.cpp.obj:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/runQueries.cpp.obj
-.PHONY : 12/runQueries.cpp.obj
+13/HasPtr.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/HasPtr.cpp.obj
+.PHONY : 13/HasPtr.cpp.obj
 
-12/runQueries.i: 12/runQueries.cpp.i
+13/HasPtr.i: 13/HasPtr.cpp.i
 
-.PHONY : 12/runQueries.i
+.PHONY : 13/HasPtr.i
 
 # target to preprocess a source file
-12/runQueries.cpp.i:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/runQueries.cpp.i
-.PHONY : 12/runQueries.cpp.i
+13/HasPtr.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/HasPtr.cpp.i
+.PHONY : 13/HasPtr.cpp.i
 
-12/runQueries.s: 12/runQueries.cpp.s
+13/HasPtr.s: 13/HasPtr.cpp.s
 
-.PHONY : 12/runQueries.s
+.PHONY : 13/HasPtr.s
 
 # target to generate assembly for a file
-12/runQueries.cpp.s:
-	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/12/runQueries.cpp.s
-.PHONY : 12/runQueries.cpp.s
+13/HasPtr.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/HasPtr.cpp.s
+.PHONY : 13/HasPtr.cpp.s
+
+13/Message.obj: 13/Message.cpp.obj
+
+.PHONY : 13/Message.obj
+
+# target to build an object file
+13/Message.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Message.cpp.obj
+.PHONY : 13/Message.cpp.obj
+
+13/Message.i: 13/Message.cpp.i
+
+.PHONY : 13/Message.i
+
+# target to preprocess a source file
+13/Message.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Message.cpp.i
+.PHONY : 13/Message.cpp.i
+
+13/Message.s: 13/Message.cpp.s
+
+.PHONY : 13/Message.s
+
+# target to generate assembly for a file
+13/Message.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/Message.cpp.s
+.PHONY : 13/Message.cpp.s
+
+13/StrVec.obj: 13/StrVec.cpp.obj
+
+.PHONY : 13/StrVec.obj
+
+# target to build an object file
+13/StrVec.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/StrVec.cpp.obj
+.PHONY : 13/StrVec.cpp.obj
+
+13/StrVec.i: 13/StrVec.cpp.i
+
+.PHONY : 13/StrVec.i
+
+# target to preprocess a source file
+13/StrVec.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/StrVec.cpp.i
+.PHONY : 13/StrVec.cpp.i
+
+13/StrVec.s: 13/StrVec.cpp.s
+
+.PHONY : 13/StrVec.s
+
+# target to generate assembly for a file
+13/StrVec.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/StrVec.cpp.s
+.PHONY : 13/StrVec.cpp.s
+
+13/String.obj: 13/String.cpp.obj
+
+.PHONY : 13/String.obj
+
+# target to build an object file
+13/String.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/String.cpp.obj
+.PHONY : 13/String.cpp.obj
+
+13/String.i: 13/String.cpp.i
+
+.PHONY : 13/String.i
+
+# target to preprocess a source file
+13/String.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/String.cpp.i
+.PHONY : 13/String.cpp.i
+
+13/String.s: 13/String.cpp.s
+
+.PHONY : 13/String.s
+
+# target to generate assembly for a file
+13/String.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/13/String.cpp.s
+.PHONY : 13/String.cpp.s
+
+class/Sales_data.obj: class/Sales_data.cpp.obj
+
+.PHONY : class/Sales_data.obj
+
+# target to build an object file
+class/Sales_data.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/Sales_data.cpp.obj
+.PHONY : class/Sales_data.cpp.obj
+
+class/Sales_data.i: class/Sales_data.cpp.i
+
+.PHONY : class/Sales_data.i
+
+# target to preprocess a source file
+class/Sales_data.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/Sales_data.cpp.i
+.PHONY : class/Sales_data.cpp.i
+
+class/Sales_data.s: class/Sales_data.cpp.s
+
+.PHONY : class/Sales_data.s
+
+# target to generate assembly for a file
+class/Sales_data.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/Sales_data.cpp.s
+.PHONY : class/Sales_data.cpp.s
+
+class/StrBlob.obj: class/StrBlob.cpp.obj
+
+.PHONY : class/StrBlob.obj
+
+# target to build an object file
+class/StrBlob.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlob.cpp.obj
+.PHONY : class/StrBlob.cpp.obj
+
+class/StrBlob.i: class/StrBlob.cpp.i
+
+.PHONY : class/StrBlob.i
+
+# target to preprocess a source file
+class/StrBlob.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlob.cpp.i
+.PHONY : class/StrBlob.cpp.i
+
+class/StrBlob.s: class/StrBlob.cpp.s
+
+.PHONY : class/StrBlob.s
+
+# target to generate assembly for a file
+class/StrBlob.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlob.cpp.s
+.PHONY : class/StrBlob.cpp.s
+
+class/StrBlobPtr.obj: class/StrBlobPtr.cpp.obj
+
+.PHONY : class/StrBlobPtr.obj
+
+# target to build an object file
+class/StrBlobPtr.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj
+.PHONY : class/StrBlobPtr.cpp.obj
+
+class/StrBlobPtr.i: class/StrBlobPtr.cpp.i
+
+.PHONY : class/StrBlobPtr.i
+
+# target to preprocess a source file
+class/StrBlobPtr.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPtr.cpp.i
+.PHONY : class/StrBlobPtr.cpp.i
+
+class/StrBlobPtr.s: class/StrBlobPtr.cpp.s
+
+.PHONY : class/StrBlobPtr.s
+
+# target to generate assembly for a file
+class/StrBlobPtr.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPtr.cpp.s
+.PHONY : class/StrBlobPtr.cpp.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -212,15 +374,33 @@ help:
 	@echo ... src
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 12/QueryResult.obj
-	@echo ... 12/QueryResult.i
-	@echo ... 12/QueryResult.s
-	@echo ... 12/TextQuery.obj
-	@echo ... 12/TextQuery.i
-	@echo ... 12/TextQuery.s
-	@echo ... 12/runQueries.obj
-	@echo ... 12/runQueries.i
-	@echo ... 12/runQueries.s
+	@echo ... 13/Folder.obj
+	@echo ... 13/Folder.i
+	@echo ... 13/Folder.s
+	@echo ... 13/HasPtr.obj
+	@echo ... 13/HasPtr.i
+	@echo ... 13/HasPtr.s
+	@echo ... 13/Message.obj
+	@echo ... 13/Message.i
+	@echo ... 13/Message.s
+	@echo ... 13/StrVec.obj
+	@echo ... 13/StrVec.i
+	@echo ... 13/StrVec.s
+	@echo ... 13/String.obj
+	@echo ... 13/String.i
+	@echo ... 13/String.s
+	@echo ... class/Sales_data.obj
+	@echo ... class/Sales_data.i
+	@echo ... class/Sales_data.s
+	@echo ... class/StrBlob.obj
+	@echo ... class/StrBlob.i
+	@echo ... class/StrBlob.s
+	@echo ... class/StrBlobPtr.obj
+	@echo ... class/StrBlobPtr.i
+	@echo ... class/StrBlobPtr.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

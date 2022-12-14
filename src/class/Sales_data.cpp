@@ -24,3 +24,20 @@ std::ostream & print(std::ostream &os, const Sales_data &salesData){
     salesData.revenue<<std::endl;
     return os;
 }
+
+std::ostream &operator<<(std::ostream &out, const Sales_data &salesData) {
+    out << salesData.isbn() << " " <<salesData.units_sold << " " <<salesData.revenue <<std::endl;
+    return out;
+}
+
+std::istream &operator>>(std::istream &in, Sales_data &salesData) {
+    double price = 0; //单价
+    Sales_data temp = salesData;
+    in >> salesData.bookNo >> salesData.units_sold >>price;
+    if (in) {
+        salesData.revenue = salesData.units_sold*price;
+    }else {
+        salesData = temp;
+    }
+    return in;
+}

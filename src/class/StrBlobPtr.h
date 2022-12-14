@@ -7,6 +7,8 @@
 
 #include "memory"
 #include "vector"
+#include "StrBlob.h"
+
 
 class StrBlob;
 class StrBlobPtr {
@@ -24,6 +26,9 @@ private:
     std::shared_ptr<std::vector<std::string> >
     check(size_type index ,const std::string &msg) const;
 };
+
+
+
 
 bool eq(const StrBlobPtr &a , const StrBlobPtr &b);
 

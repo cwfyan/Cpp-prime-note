@@ -3,17 +3,7 @@
 //
 
 
-//class TextQuery {
-//
-//public:
-//    TextQuery() {}
-//    TextQuery(std::istream &);
-//    QueryResult query(const std::string &s) const ;
-//
-//private:
-//    std::shared_ptr<std::vector<std::string> > file;
-//    std::map<std::string, std::shared_ptr<std::set<int>>> mp;
-//};
+
 #include "TextQuery.h"
 #include "sstream"
 #include "QueryResult.h"

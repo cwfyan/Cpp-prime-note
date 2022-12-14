@@ -82,19 +82,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/CPP prime note/src/12/QueryResult.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/13/Folder.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/12/QueryResult.h">
+		<Unit filename="D:/C++/CPP prime note/src/13/Folder.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/12/TextQuery.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/13/HasPtr.cpp">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/12/TextQuery.h">
+		<Unit filename="D:/C++/CPP prime note/src/13/HasPtr.h">
 			<Option target="src"/>
 		</Unit>
-		<Unit filename="D:/C++/CPP prime note/src/12/runQueries.cpp">
+		<Unit filename="D:/C++/CPP prime note/src/13/Message.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/13/Message.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/13/StrVec.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/13/StrVec.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/13/String.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/13/String.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/Sales_data.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/Sales_data.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlob.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlob.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlobPtr.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlobPtr.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/main.cpp">
 			<Option target="src"/>
 		</Unit>
 		<Unit filename="D:/C++/CPP prime note/src/CMakeLists.txt">
