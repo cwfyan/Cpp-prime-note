@@ -28,6 +28,28 @@ iostream
 memory
 -
 
+D:/C++/CPP prime note/src/class/StrBlob.h
+memory
+D:/C++/CPP prime note/src/class/memory
+vector
+D:/C++/CPP prime note/src/class/vector
+string
+D:/C++/CPP prime note/src/class/string
+
+D:/C++/CPP prime note/src/class/StrBlobPP.h
+memory
+D:/C++/CPP prime note/src/class/memory
+vector
+D:/C++/CPP prime note/src/class/vector
+
+D:/C++/CPP prime note/src/class/StrBlobPtr.h
+memory
+D:/C++/CPP prime note/src/class/memory
+vector
+D:/C++/CPP prime note/src/class/vector
+StrBlob.h
+D:/C++/CPP prime note/src/class/StrBlob.h
+
 D:/C++/CPP prime note/src/main.cpp
 iostream
 D:/C++/CPP prime note/src/iostream
@@ -49,4 +71,12 @@ D:/C++/CPP prime note/src/utility
 D:/C++/CPP prime note/src/13/String.h
 cstring
 D:/C++/CPP prime note/src/cstring
+class/StrBlobPtr.h
+D:/C++/CPP prime note/src/class/StrBlobPtr.h
+class/StrBlob.h
+D:/C++/CPP prime note/src/class/StrBlob.h
+class/StrBlobPP.h
+D:/C++/CPP prime note/src/class/StrBlobPP.h
+string
+D:/C++/CPP prime note/src/string
 

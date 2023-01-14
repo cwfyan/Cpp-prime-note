@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/C++/CPP prime note/src/13/String.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/13/String.cpp.obj"
   "D:/C++/CPP prime note/src/class/Sales_data.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/class/Sales_data.cpp.obj"
   "D:/C++/CPP prime note/src/class/StrBlob.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/class/StrBlob.cpp.obj"
+  "D:/C++/CPP prime note/src/class/StrBlobPP.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/class/StrBlobPP.cpp.obj"
   "D:/C++/CPP prime note/src/class/StrBlobPtr.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj"
   "D:/C++/CPP prime note/src/main.cpp" "D:/C++/CPP prime note/src/cmake-build-debug/CMakeFiles/src.dir/main.cpp.obj"
   )

@@ -61,3 +61,11 @@ bool operator==(const StrBlob &lhs, const StrBlob &rhs) {
 bool operator!=(const StrBlob &lhs, const StrBlob &rhs) {
     return !(lhs == rhs);
 }
+
+std::string &StrBlob::operator[](StrBlob::size_type n) {
+    return (*data)[n];
+}
+
+const std::string & StrBlob::operator [] (StrBlob::size_type n) const {
+    return (*data)[n];
+}

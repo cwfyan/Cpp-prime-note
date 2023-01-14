@@ -136,6 +136,15 @@ bool operator!=(const StrVec &lhs, const StrVec &rhs) {
     return !(lhs == rhs);
 }
 
+std::string &StrVec::operator[](size_t n) {
+    return element[n];
+}
+
+const std::string &StrVec::operator[](size_t n) const {
+    return element[n];
+}
+
+
 
 
 

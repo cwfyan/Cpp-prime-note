@@ -25,6 +25,11 @@ CMakeFiles/src.dir/class/StrBlob.cpp.obj
  D:/C++/CPP prime note/src/class/StrBlob.cpp
  D:/C++/CPP prime note/src/class/StrBlob.h
  D:/C++/CPP prime note/src/class/StrBlobPtr.h
+CMakeFiles/src.dir/class/StrBlobPP.cpp.obj
+ D:/C++/CPP prime note/src/class/StrBlob.h
+ D:/C++/CPP prime note/src/class/StrBlobPP.cpp
+ D:/C++/CPP prime note/src/class/StrBlobPP.h
+ D:/C++/CPP prime note/src/class/StrBlobPtr.h
 CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj
  D:/C++/CPP prime note/src/class/StrBlob.h
  D:/C++/CPP prime note/src/class/StrBlobPtr.cpp
@@ -34,4 +39,7 @@ CMakeFiles/src.dir/main.cpp.obj
  D:/C++/CPP prime note/src/13/HasPtrPv.h
  D:/C++/CPP prime note/src/13/StrVec.h
  D:/C++/CPP prime note/src/13/String.h
+ D:/C++/CPP prime note/src/class/StrBlob.h
+ D:/C++/CPP prime note/src/class/StrBlobPP.h
+ D:/C++/CPP prime note/src/class/StrBlobPtr.h
  D:/C++/CPP prime note/src/main.cpp

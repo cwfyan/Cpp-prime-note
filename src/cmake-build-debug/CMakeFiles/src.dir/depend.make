@@ -25,6 +25,11 @@ CMakeFiles/src.dir/class/StrBlob.cpp.obj: ../class/StrBlob.cpp
 CMakeFiles/src.dir/class/StrBlob.cpp.obj: ../class/StrBlob.h
 CMakeFiles/src.dir/class/StrBlob.cpp.obj: ../class/StrBlobPtr.h
 
+CMakeFiles/src.dir/class/StrBlobPP.cpp.obj: ../class/StrBlob.h
+CMakeFiles/src.dir/class/StrBlobPP.cpp.obj: ../class/StrBlobPP.cpp
+CMakeFiles/src.dir/class/StrBlobPP.cpp.obj: ../class/StrBlobPP.h
+CMakeFiles/src.dir/class/StrBlobPP.cpp.obj: ../class/StrBlobPtr.h
+
 CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj: ../class/StrBlob.h
 CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj: ../class/StrBlobPtr.cpp
 CMakeFiles/src.dir/class/StrBlobPtr.cpp.obj: ../class/StrBlobPtr.h
@@ -33,5 +38,8 @@ CMakeFiles/src.dir/main.cpp.obj: ../13/HasPtr.h
 CMakeFiles/src.dir/main.cpp.obj: ../13/HasPtrPv.h
 CMakeFiles/src.dir/main.cpp.obj: ../13/StrVec.h
 CMakeFiles/src.dir/main.cpp.obj: ../13/String.h
+CMakeFiles/src.dir/main.cpp.obj: ../class/StrBlob.h
+CMakeFiles/src.dir/main.cpp.obj: ../class/StrBlobPP.h
+CMakeFiles/src.dir/main.cpp.obj: ../class/StrBlobPtr.h
 CMakeFiles/src.dir/main.cpp.obj: ../main.cpp
 

@@ -20,6 +20,18 @@ public:
     std::string & deref() const ;
     StrBlobPtr & inc();
     StrBlobPtr & dec();
+
+    std::string & operator[](size_type);
+    const std::string & operator[](size_type) const;
+    StrBlobPtr &operator++();
+    StrBlobPtr &operator--();
+    const StrBlobPtr operator++(int);
+    const StrBlobPtr operator--(int);
+    StrBlobPtr operator+(size_t) const ;
+    StrBlobPtr operator-(size_t) const ;
+    std::string &operator*() const ;
+    std::string *operator->() const ;
+
 private:
     std::weak_ptr<std::vector<std::string> > ptr;
     size_type cur;

@@ -124,6 +124,12 @@
 		<Unit filename="D:/C++/CPP prime note/src/class/StrBlob.h">
 			<Option target="src"/>
 		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlobPP.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="D:/C++/CPP prime note/src/class/StrBlobPP.h">
+			<Option target="src"/>
+		</Unit>
 		<Unit filename="D:/C++/CPP prime note/src/class/StrBlobPtr.cpp">
 			<Option target="src"/>
 		</Unit>

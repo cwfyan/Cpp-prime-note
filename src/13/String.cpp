@@ -86,3 +86,13 @@ bool operator!=(const String &lhs, const String &rhs) {
     return !(lhs == rhs);
 }
 
+char &String::operator[](size_t n) {
+    return first_element[n];
+}
+
+const char &String::operator[](size_t n) const {
+    return first_element[n];
+}
+
+
+

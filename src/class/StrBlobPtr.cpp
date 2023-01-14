@@ -25,14 +25,14 @@ std::string & StrBlobPtr::deref() const {
 }
 
 StrBlobPtr & StrBlobPtr::inc() {
-    check(cur, "cur point at the end");
+    check(cur, "cur pointer at the end");
     ++cur;
     return *this;
 }
 
 StrBlobPtr & StrBlobPtr::dec() {
     --cur;
-    check(cur, "cur point at the begin");
+    check(cur, "cur pointer at the begin");
     return *this;
 }
 
@@ -43,3 +43,58 @@ bool eq(const StrBlobPtr &a , const StrBlobPtr &b){
     }
     return false;
 }
+
+std::string &StrBlobPtr::operator[](StrBlobPtr::size_type n) {
+    return (*ptr.lock())[n];
+}
+
+const std::string &StrBlobPtr::operator[](StrBlobPtr::size_type n) const {
+    return (*ptr.lock())[n];
+}
+
+StrBlobPtr &StrBlobPtr::operator++() {
+    check(cur,"cur pointer at the end");
+    ++cur;
+    return *this;
+}
+
+StrBlobPtr &StrBlobPtr::operator--() {
+    --cur;
+    check(cur,"cur pointer at the begin");
+    return *this;
+}
+
+const StrBlobPtr StrBlobPtr::operator++(int) {
+    auto ret = *this;
+    ++(*this);
+    return ret;
+}
+
+const StrBlobPtr StrBlobPtr::operator--(int) {
+    auto ret = *this;
+    --(*this);
+    return ret;
+}
+
+StrBlobPtr StrBlobPtr::operator+(size_t n) const {
+    auto ret = *this;
+    ret.cur  += n;
+    return ret;
+}
+
+StrBlobPtr StrBlobPtr::operator-(size_t n) const {
+    auto ret = *this;
+    ret.cur  -= n;
+    return ret;
+}
+
+std::string &StrBlobPtr::operator*() const {
+    auto p = check(cur,"deference pass the end");
+    return (*p)[cur];
+}
+
+std::string *StrBlobPtr::operator->() const {
+    return & this->operator*();
+}
+
+

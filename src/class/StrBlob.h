@@ -32,6 +32,9 @@ public:
     StrBlobPtr begin();
     StrBlobPtr end();
 
+    std::string & operator [] (size_type) ;
+    const std::string & operator [] (size_type) const;
+
 private:
     std::shared_ptr<std::vector<std::string> > data;
     void check(size_type i, const std::string &msg) const ;

@@ -311,6 +311,33 @@ class/StrBlob.cpp.s:
 	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlob.cpp.s
 .PHONY : class/StrBlob.cpp.s
 
+class/StrBlobPP.obj: class/StrBlobPP.cpp.obj
+
+.PHONY : class/StrBlobPP.obj
+
+# target to build an object file
+class/StrBlobPP.cpp.obj:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPP.cpp.obj
+.PHONY : class/StrBlobPP.cpp.obj
+
+class/StrBlobPP.i: class/StrBlobPP.cpp.i
+
+.PHONY : class/StrBlobPP.i
+
+# target to preprocess a source file
+class/StrBlobPP.cpp.i:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPP.cpp.i
+.PHONY : class/StrBlobPP.cpp.i
+
+class/StrBlobPP.s: class/StrBlobPP.cpp.s
+
+.PHONY : class/StrBlobPP.s
+
+# target to generate assembly for a file
+class/StrBlobPP.cpp.s:
+	$(MAKE) -f CMakeFiles\src.dir\build.make CMakeFiles/src.dir/class/StrBlobPP.cpp.s
+.PHONY : class/StrBlobPP.cpp.s
+
 class/StrBlobPtr.obj: class/StrBlobPtr.cpp.obj
 
 .PHONY : class/StrBlobPtr.obj
@@ -395,6 +422,9 @@ help:
 	@echo ... class/StrBlob.obj
 	@echo ... class/StrBlob.i
 	@echo ... class/StrBlob.s
+	@echo ... class/StrBlobPP.obj
+	@echo ... class/StrBlobPP.i
+	@echo ... class/StrBlobPP.s
 	@echo ... class/StrBlobPtr.obj
 	@echo ... class/StrBlobPtr.i
 	@echo ... class/StrBlobPtr.s

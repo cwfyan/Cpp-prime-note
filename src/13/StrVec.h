@@ -13,11 +13,12 @@ class StrVec {
 public:
     StrVec():element(nullptr),first_free(nullptr),cap(nullptr){}
     StrVec(const StrVec &);
-    StrVec& operator = (const StrVec &);
     StrVec(StrVec &&) noexcept ;
     StrVec& operator = (StrVec &&) noexcept ;
+    StrVec& operator = (const StrVec &);
     StrVec(std::initializer_list<std::string> il) ;
     ~StrVec();
+
     void push_back(const std::string &str);
     void pop_back();
     size_t size() const ;
@@ -28,6 +29,8 @@ public:
     void reserve(size_t size);
     void resize(const size_t size , const std::string &str = "");
 
+    std::string & operator[](size_t);
+    const std::string & operator[](size_t) const;
 private:
     static std::allocator<std::string> alloc;
     void chk_n_alloc() {
@@ -41,5 +44,7 @@ private:
     std::string *cap;
 };
 
+bool operator == (const StrVec &lhs, const StrVec &rhs);
+bool operator != (const StrVec &lhs, const StrVec &rhs);
 
 #endif //SRC_STRVEC_H
